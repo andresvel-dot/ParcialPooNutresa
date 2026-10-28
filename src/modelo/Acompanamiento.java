@@ -18,6 +18,6 @@ public class Acompanamiento implements Costeable {
     }
 
    public double calcularCosto (){
-      getPrecio() * 1.6;
+    return  precio * 1.6;
    }
 }

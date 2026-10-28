@@ -1,7 +1,7 @@
 package modelo;
 
 public class Sancocho implements Identificable, Costeable {
-    public static final double COSTO_GAS_POR_MINUTO = 100;
+    public static final double COSTO_GAS_POR_MINUTO = 100.0;
     public static final double MARGEN_GANANCIA = 0.60;
 
     private final String codigo;

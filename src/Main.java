@@ -105,7 +105,7 @@ public class Main {
         System.out.printf("Ventas del día: $%.0f%n", fonda.calcularVentasDelDia());
 
         System.out.println("\n=== 6. Polimorfismo ===");
-        Proteina buscada = ollaGallina.buscarPorCodigo("PRO-001");
+        Proteina buscada = (Proteina) ollaGallina.buscarPorCodigo("PRO-001");
         System.out.println("Buscar PRO-001: " + (buscada != null ? buscada.getNombre() + " (" + buscada.getTipo() + ")" : "no encontrado"));
         Identificable conCodigo = trifasico;
         System.out.println("Como Identificable: " + conCodigo.getCodigo());
